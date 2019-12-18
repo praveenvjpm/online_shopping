@@ -6,10 +6,14 @@ const FormInput = ({ handleChange, label, ...Otherprops }) => (
     <input className="form-input" onChange={handleChange} {...Otherprops} />
     {label ? (
       <label
-        className={`${props.value.length ? "shrink" : ""} form-input-label`}
+        className={`${
+          Otherprops.value.length ? "shrink" : ""
+        } form-input-label`}
       >
         {label}
       </label>
     ) : null}
   </div>
 );
+
+export default FormInput;
