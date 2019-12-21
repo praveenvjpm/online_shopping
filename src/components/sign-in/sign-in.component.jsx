@@ -2,7 +2,7 @@ import React from "react";
 import "./sign-in.styles.scss";
 import FormInput from "../forn-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-
+//Component
 class SignIn extends React.Component {
   constructor(props) {
     super(props);
