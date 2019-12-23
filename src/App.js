@@ -6,7 +6,7 @@ import ShopPage from "./pages/shop/shop.component";
 import { Header } from "./components/header/header.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-signup/sign-in-and-signup.component";
 
-/*const HatsPage = () => {
+/*const HatsPage = () => {//
   return (
     <div>
       <h1>Hats Page</h1>
